@@ -1,0 +1,22 @@
+.input {
+  width: 250px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  padding: 2px 35px;
+  color: rgba(255, 255, 255, 0.5);
+  &::before {
+    content: "🔍";
+    width: 15px;
+    position: absolute;
+    height: 10px;
+    top: 15px;
+    left: 15px;
+  }
+  &::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+  }
+}
