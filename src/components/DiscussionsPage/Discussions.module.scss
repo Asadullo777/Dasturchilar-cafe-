@@ -1,0 +1,32 @@
+.discussion {
+  position: relative;
+  margin-top: 20px;
+  padding: 10px;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 10px;
+
+  &_number {
+    position: absolute;
+    left: 30px;
+    top: 20px;
+  }
+  &_subtxt {
+    padding: 10px 15px 10px 90px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+  }
+  &_base {
+    padding: 10px 15px 10px 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &_contact {
+    display: flex;
+    gap: 10px;
+  }
+}
