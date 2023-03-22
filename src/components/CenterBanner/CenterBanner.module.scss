@@ -1,0 +1,27 @@
+.card {
+  margin-top: 20px;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 10px;
+  &_img {
+    width: 100%;
+  }
+  &_base {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+  }
+  &_contact {
+    display: flex;
+    gap: 10px;
+  }
+
+  &_subtxt {
+    padding: 10px 20px 10px 10px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+  }
+}
