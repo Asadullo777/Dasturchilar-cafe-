@@ -1,0 +1,49 @@
+.blocks {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.course {
+  margin-top: 20px;
+  padding-bottom: 10px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 10px;
+  &_img {
+    width: 100%;
+  }
+
+  &_txt {
+    margin-top: 10px;
+    padding: 0 35px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+  }
+
+  &_subtxt {
+    margin-top: 10px;
+    font-weight: 400;
+    padding: 0 35px;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  &_base {
+    margin-top: 10px;
+    display: flex;
+    padding: 0 35px;
+    align-items: center;
+    justify-content: space-between;
+    &_star {
+      font-size: 12px;
+      line-height: 14px;
+      color: #f49816;
+      span {
+        color: rgba(255, 255, 255, 0.5);
+      }
+    }
+  }
+}
